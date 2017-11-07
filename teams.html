@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-     <title>Enver creek websites</title>
-     
-     <style>
-   img {
-             width:300px;
-             margin: auto;
-             display:block;
-             height:150px; 
-         }
-     th, td, table {
-     	border: 1px solid black;
-     }
-     
-     </style>
-     
-   </head>
-   <body>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header, .footer {
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: teal;
+    color: #ffffff;
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+</style>
+</head>
+<body>
 
+<div class="header">
+  <h1>Chania</h1>
+</div>
 
-<h1>Enver creek home of the couger</h1>
-<img
-src="https://www.surreyschools.ca/schools/envercreek/About/Administration/Documents/COUGARS%20LOGO.jpg">
-<p>Welcome to enver creek official website we are a school who love to help our students to achvieve they're goals</p>
-<p>We have a lot of sports team for students to engage in</p>
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>The Flight</li>
+      <li>The City</li>
+      <li>The Island</li>
+      <li>The Food</li>
+    </ul>
+  </div>
 
- <br>
- <br>
-  
-  <h1>timetable</h1>
-  <table>
-      <tr>
-        <th>block</th>
-   		<th>class</th>
-  	    <th>teacher</th>
-        <th>time</th>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>english</td>
-        <td>Singer</td>
-        <td>8:30-9:50</td>
-        </tr>
-        <tr>
-        
-        <td>B</td>
-        <td>PE</td>
-        <td>Sujan</td>
-        <td>10:05-11:30</td>
-        </tr>
-        <tr>
-         
-        
-       <td>C</td>
-       <td>weight training</td>
-       <td>Sujan</td>
-       <td>12:10-1:35</td>
-        </tr>
-        <tr>
-        
-        
-        <td>D</td>
-        <td>math</td>
-        <td>Gill</td>
-        <td>1:40-2:52</td>
-       
-       
-      
-         
-       
-   
-   
-   
-   
+  <div class="column content">
+    
+    <img src="https://www.surreyschools.ca/schools/envercreek/Style%20Library/Images/114.jpg">
+    <h1>Enver Creek</h1>
+    <p>Enver Creek is a school where we help our students to achieve their goals, we also have a lot of sports team where we encourage our students to participate in them.</p>
+    <p>We have a lot of academic courses for students try.</p>
+  </div>
+</div>
 
-
-
+<div class="footer">
+  <p>Contact us:</p>
+  <p>604-555-1234</p>
+</div>
 
 </body>
 </html>
